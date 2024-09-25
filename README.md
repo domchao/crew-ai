@@ -24,6 +24,12 @@ python sql_database/populate_datebase.py
 
 4. Run through the `sql_crew.ipynb` notebook. <p style="color: red;"> Watch out for the warning and the LLM generated python code execution</p>
 
+### Output plot
+
+- Output from running the `exec(python_output_code)` cell. (It doesn't save/render in the browser).
+
+![output plo](./plotly_output.png)
+
 <!-- Links -->
 [1]: https://www.crewai.com/
 [2]: https://www.langchain.com/

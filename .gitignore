@@ -166,3 +166,6 @@ scratch/
 
 # Data folder
 data/
+
+#
+example.db

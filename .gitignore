@@ -168,4 +168,4 @@ scratch/
 data/
 
 #
-example.db
+*.db

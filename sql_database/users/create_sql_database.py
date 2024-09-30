@@ -4,7 +4,7 @@ import sqlite3
 if __name__ == '__main__':
     # Step 1: Connect to a SQLite database
     # This will create the database file 'example.db' if it doesn't exist
-    conn = sqlite3.connect('example.db')
+    conn = sqlite3.connect('users.db')
 
     # Step 2: Create a cursor object
     cursor = conn.cursor()
@@ -13,7 +13,7 @@ if __name__ == '__main__':
     # Here, we create a simple table called 'users'
     cursor.execute('''
     CREATE TABLE IF NOT EXISTS users (
-        id INTEGER PRIMARY KEY,
+        customer_id INTEGER PRIMARY KEY,
         name TEXT NOT NULL,
         age INTEGER,
         email TEXT NOT NULL,
